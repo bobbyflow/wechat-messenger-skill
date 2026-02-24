@@ -94,7 +94,7 @@ def atomic_paste(with_enter=False):
         win32api.keybd_event(0x0D, 0, 0, 0) # Enter down
         win32api.keybd_event(0x0D, 0, win32con.KEYEVENTF_KEYUP, 0) # Enter up
 
-def send_wechat_message(contact, message=None, image_path=None, auto_send=False):
+def send_wechat_message(contact, message=None, image_path=None, auto_send=False, mute=False):
     main_hwnd = ensure_wechat_open()
     if not main_hwnd:
         output_result(False, "WeChat is not running and could not be started.")
@@ -165,6 +165,11 @@ def send_wechat_message(contact, message=None, image_path=None, auto_send=False)
 
         msg_box.SetFocus()
         
+        # MUTE CHECK (Dry Run)
+        if mute:
+            output_result(True, f"Mute Mode: Target verified for {contact}. Execution halted.")
+            return True
+
         # Handle Image/File first if provided
         if image_path and os.path.exists(image_path):
             p_path = os.path.abspath(image_path).replace("'", "''")
@@ -201,6 +206,7 @@ if __name__ == "__main__":
     parser.add_argument("--message", help="Text message to send")
     parser.add_argument("--image", help="Path to image or file to attach")
     parser.add_argument("--send", action="store_true", help="Automatically press Enter to send")
+    parser.add_argument("--mute", action="store_true", help="Dry-run mode: Find the box but don't paste or send")
     
     args = parser.parse_args()
     
@@ -208,4 +214,4 @@ if __name__ == "__main__":
         output_result(False, "No message or image provided.")
         sys.exit(1)
         
-    send_wechat_message(args.contact, args.message, args.image, auto_send=args.send)
+    send_wechat_message(args.contact, args.message, args.image, auto_send=args.send, mute=args.mute)
