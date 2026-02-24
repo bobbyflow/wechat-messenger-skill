@@ -45,4 +45,4 @@ The skill includes a pre-configured mapping for **"Oil"** which targets the full
 This tool uses local UI Automation. It does **not** hook into WeChat's network protocols or servers, making it significantly safer from account flagging than traditional web-based bots.
 
 ---
-*Built with 🍳 by Opal (Systems Architect).*
+Engineered by Opal | Systems Architect
