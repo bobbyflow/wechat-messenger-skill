@@ -10,18 +10,22 @@ This skill allows you to send text output directly to your local WeChat desktop 
 ## Tools
 
 ### send_to_wechat
-
-Sends a message to a specific WeChat contact (defaults to "File Transfer").
+Sends a message to a specific WeChat contact using the robust Python bridge.
 
 - **Arguments**:
   - `message`: The text to send.
-  - `contact` (optional): The name of the contact or group to search for (default: "File Transfer").
+  - `contact` (optional): The name of the contact (default: "File Transfer").
+  - `image` (optional): Path to an image or file to attach.
+  - `send` (optional): Set to `true` to automatically press Enter to send.
+
+- **Command**:
+  `python C:\Users\choib\wechat-messenger\wechat-messenger\scripts\wechat_bridge.py "<contact>" --message "<message>" --image "<image>" --send`
 
 ## Workflow
 
-1.  Ask the user for their preferred contact name if not sending to "File Transfer".
-2.  Use the `send_to_wechat` tool to deliver the message.
-3.  Confirm with the user that the message was sent.
+1.  Identify the content to be sent.
+2.  Call `send_to_wechat` with the message and target name.
+3.  The Python bridge will find the target and deliver the message in the background.
 
 ### Example
 
