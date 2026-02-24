@@ -95,6 +95,10 @@ def atomic_paste(with_enter=False):
         win32api.keybd_event(0x0D, 0, win32con.KEYEVENTF_KEYUP, 0) # Enter up
 
 def send_wechat_message(contact, message=None, image_path=None, auto_send=False, mute=False):
+    if not contact or not contact.strip():
+        output_result(False, "Contact name cannot be empty.")
+        return False
+        
     main_hwnd = ensure_wechat_open()
     if not main_hwnd:
         output_result(False, "WeChat is not running and could not be started.")
