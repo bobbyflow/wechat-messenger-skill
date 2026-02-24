@@ -5,12 +5,13 @@ description: Send results and images to your local WeChat account via a robust P
 
 # WeChat Messenger (OpenClaw Edition)
 
-This skill allows OpenClaw agents to send text output and images directly to your local WeChat desktop client using a surgical Python bridge.
+This skill allows OpenClaw agents to send text output and images directly to your local WeChat desktop client using a surgical, hardware-resilient Python bridge.
 
 ## Key Features
-- **Atomic Delivery:** Uses high-speed clipboard pasting to bypass hardware interference.
-- **Auto-Launch:** Automatically wakes up WeChat from the system tray or launches it if closed.
-- **Context Awareness:** Automatically follows focus if a chat is popped out into a small window.
+- **⚡ Atomic Delivery:** Uses high-speed clipboard injection to bypass physical keyboard interference.
+- **🛠️ Self-Healing Launch:** Automatically wakes up WeChat from the system tray or launches it if closed.
+- **🛡️ Identity Lock:** Verifies the active chat header before pasting to prevent mis-delivery.
+- **🔄 Context Awareness:** Automatically follows focus if a chat is popped out into a separate window.
 
 ## Tools
 
