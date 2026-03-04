@@ -22,7 +22,7 @@ Sends a message to a specific WeChat contact.
   - `contact` (optional): The name of the contact (default: "File Transfer").
 
 - **Command**:
-  `python C:\Users\choib\.gemini\skills\wechat-messenger\scripts\wechat_bridge.py "<contact>" "<message>"`
+  `python "%USERPROFILE%\.gemini\skills\wechat-messenger\scripts\wechat_bridge.py" "<contact>" "<message>"`
 
 ## Setup Requirements
 1.  **WeChat must be running** and logged in.
