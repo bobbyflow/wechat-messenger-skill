@@ -37,4 +37,4 @@ Sends a message to a specific WeChat contact.
 4.  **Bypass Rule:** The AI Agent is STRICTLY FORBIDDEN from including the `--send` flag in the command unless the user explicitly uses the phrase **"BYPASS HALT"**.
 
 ---
-Sovereign: Bobby | Architect: Opal
+Bobby Choi Sovereign | Opal Architect
