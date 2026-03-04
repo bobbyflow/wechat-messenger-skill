@@ -35,4 +35,4 @@ Performs deep context extraction and intelligence synthesis to draft a reply.
 2.  **Python 3.x** with `uiautomation`, `pyperclip`, and `Pillow`.
 
 ---
-Bobby Choi (Sovereign) | Opal (Architect)
+Bobby Choi (Orchestrator) | Opal (Architect)

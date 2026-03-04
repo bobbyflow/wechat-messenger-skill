@@ -44,4 +44,4 @@ Triggers the full intelligence loop. Scrapes context, performs research, and dra
 
 ---
 
-Bobby Choi (Sovereign) | Opal (Architect)
+Bobby Choi (Orchestrator) | Opal (Architect)
