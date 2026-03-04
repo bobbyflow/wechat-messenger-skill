@@ -1,38 +1,47 @@
-﻿---
-name: wechat-messenger
-description: Send results and messages to your local WeChat account via a robust Python bridge. Use when you need to output data to WeChat contacts (like "Bobby Choi") or "File Transfer" without UI interference.
+# WeChat Messenger
+### Absolute Zero Intelligence Bridge.
+
 ---
 
-# WeChat Messenger (Headless Bridge)
+**Designed for Sovereignty. Engineered for Precision.**  
+The WeChat Messenger skill is a high-speed, hardware-hardened bridge that transforms your local WeChat Desktop client into an autonomous intelligence hub. It utilizes kernel-level input locking and multi-modal temporal analysis to deliver professional-grade replies with zero friction.
 
-This skill allows you to send text output directly to your local WeChat desktop client using a surgical Python bridge (`uiautomation`). 
+---
 
-## ðŸŒŸ Key Features
-- **âš¡ Atomic Delivery**: Uses high-speed clipboard injection to bypass physical keyboard interference.
-- **ðŸ›¡ï¸ Absolute Zero Aggression**: Forces WeChat to front and locks hardware input (Requires Admin).
-- **ðŸ‘ï¸ Chart-Eye Visuals**: Automatically captures and analyzes screenshots of charts posted in chats.
-- **ðŸ§  Universal Intelligence**: Dynamic 4-way research synthesis for professional replies.
+## Capabilities
+
+### ⚡️ Atomic Delivery
+Bypass the limitations of standard UI automation. Using **Absolute Zero Aggression**, the bridge seizes focus, locks hardware input, and utilizes high-speed clipboard injection to ensure your data lands precisely where it belongs.
+
+### 🧠 Universal Intelligence
+Not just a messenger—an analyst. The bridge scrapes the last 30 messages, identifies chronological sessions using **Temporal Logic**, and performs up to 4-way parallel research to synthesize deep-reasoned replies tailored to your professional context.
+
+### 👁️ Chart-Eye Visuals
+The system sees what you see. Automated high-resolution capture of chat photos and charts allows the AI to incorporate visual market data into its reasoning loop.
+
+---
 
 ## Tools
 
-### send_to_wechat
-Sends a message to a specific WeChat contact.
-- **Arguments**: `message`, `contact` (default: "File Transfer").
+### `send_to_wechat`
+**The Tactical Hand.**  
+Directly injects text or images into a target contact. Optimized for speed and reliability.
 
-### help_me_reply
-Performs deep context extraction and intelligence synthesis to draft a reply.
-- **Arguments**:
-  - `chat_name`: The name of the group or contact.
-  - `intensity`: `quick` (1 search), `standard` (2 searches), `deep` (4 searches + research skill).
-- **Workflow**: 
-  1. Scrapes last 30 messages.
-  2. Captures visual data from recent photos.
-  3. Fuses 4-way parallel research with internal reasoning.
-  4. Pastes draft into chat (Halt Mode).
-
-## Setup Requirements
-1.  **WeChat must be running** and logged in.
-2.  **Python 3.x** with `uiautomation`, `pyperclip`, and `Pillow`.
+### `help_me_reply`
+**The Strategic Brain.**  
+Triggers the full intelligence loop. Scrapes context, performs research, and drafts a synthesized response.
+*   **Quick:** 1 Search + Heuristic Logic.
+*   **Standard:** 2 Searches + Multi-Factor Synthesis.
+*   **Deep:** 4 Searches + Research Skill + Adversarial Reasoning.
 
 ---
+
+## Requirements
+*   **OS:** Windows 10/11
+*   **App:** WeChat Desktop (Logged in)
+*   **Environment:** Python 3.x with `pip install -r requirements.txt`
+*   **Access:** Admin privileges recommended for `BlockInput` dominance.
+
+---
+
 Bobby Choi, Sovereign | Opal, Architect
