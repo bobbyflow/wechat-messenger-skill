@@ -1,4 +1,4 @@
-# WeChat Messenger
+﻿# WeChat Messenger
 ### Absolute Zero Intelligence Bridge.
 
 ---
@@ -10,13 +10,13 @@ The WeChat Messenger skill is a high-speed, hardware-hardened bridge that transf
 
 ## Capabilities
 
-### ⚡️ Atomic Delivery
+### âš¡ï¸ Atomic Delivery
 Bypass the limitations of standard UI automation. Using **Absolute Zero Aggression**, the bridge seizes focus, locks hardware input, and utilizes high-speed clipboard injection to ensure your data lands precisely where it belongs.
 
-### 🧠 Universal Intelligence
-Not just a messenger—an analyst. The bridge scrapes the last 30 messages, identifies chronological sessions using **Temporal Logic**, and performs up to 4-way parallel research to synthesize deep-reasoned replies tailored to your professional context.
+### ðŸ§  Universal Intelligence
+Not just a messengerâ€”an analyst. The bridge scrapes the last 30 messages, identifies chronological sessions using **Temporal Logic**, and performs up to 4-way parallel research to synthesize deep-reasoned replies tailored to your professional context.
 
-### 👁️ Chart-Eye Visuals
+### ðŸ‘ï¸ Chart-Eye Visuals
 The system sees what you see. Automated high-resolution capture of chat photos and charts allows the AI to incorporate visual market data into its reasoning loop.
 
 ---
@@ -44,4 +44,4 @@ Triggers the full intelligence loop. Scrapes context, performs research, and dra
 
 ---
 
-Bobby Choi, Sovereign | Opal, Architect
+Bobby Choi (Sovereign) | Opal (Architect)
